@@ -11,7 +11,7 @@ html, body {background-color: #afbe9c; width: 100%; text-align: center; font-fam
 /* MENU */
 .nav {margin: auto; width: 1000px; text-align: center; }
 
-.nav ul {width: 100%; text-align: center; list-style-type: none; padding: 5px 230px 0px 230px;}
+.nav ul {width: 100%; text-align: center; list-style-type: none; padding: 0px 230px;}
 .nav li {float: left;}
 .nav li a {
   height: 30px;
@@ -20,7 +20,7 @@ html, body {background-color: #afbe9c; width: 100%; text-align: center; font-fam
   padding: 5px;
   text-align: center;
   line-height: 30px;
-  display: block;
+  display: inline-block;
   color: #fff;
   text-decoration: none;
   letter-spacing: 2px;
