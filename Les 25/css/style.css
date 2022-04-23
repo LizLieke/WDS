@@ -1,0 +1,74 @@
+/* Margin Reset */
+
+*{margin: 0; padding: 0;}
+
+/* End Margin Reset */
+
+
+/* BASIS CSS */
+html, body {text-align: center; font-family: tahoma; font-size: 14px;}
+.container-xs {
+  width: 100%;
+  background-color: #fff;
+  text-align: left;
+  margin:0;
+  padding:0;
+}
+
+/* HEADER */
+.header {
+height: 100px;
+width: 100%;
+margin: 0;
+background-color: #afbe9c;
+border-bottom: 3px solid #000;
+font-family: 'Raleway', sans-serif;
+font-size: 42px;
+line-height: 60px;
+color: #fff;
+text-align: center;
+padding: 10px 20px;
+}
+@media only screen and (min-width: 625px) {
+    .header {font-size: 60px;}
+  }
+
+/* CONTENT */
+.content{
+  min-height: 75vh;
+  max-width: 1120px;
+  margin: 0 auto;
+  background: #dadada;
+  border-left: 20px solid #7b967c;
+  border-right: 20px solid #7b967c;
+  padding: 20px;
+  text-align: center;
+  clear: left;
+}
+
+h1 {
+  width: 200px!important;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  border-left: 5px solid #afbe9c;
+  border-right: 5px solid #afbe9c;
+}
+
+
+.row {max-width: 270px; margin: 10px auto; text-align: center; padding:0;}
+@media only screen and (min-width: 625px) {
+    .row {max-width: 1080px;}
+  }
+.img-thumbnail {margin: 5px; height: 250px; width: 250px; object-fit: cover; border-radius: 250px; filter: grayscale(1); text-align: center; }
+.img-thumbnail:hover {filter: grayscale(0);}
+
+
+/* FOOTER */
+.footer {
+  background-color: #afbe9c;
+  height: 60px;
+  font-size: 15px;
+  color: #1c252a;
+  line-height: 60px;
+  text-align: center;
+}
