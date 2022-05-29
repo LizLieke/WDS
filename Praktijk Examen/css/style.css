@@ -1,0 +1,219 @@
+/* Margin Reset */
+
+*{margin: 0; padding: 0;}
+
+/* End Margin Reset */
+
+/* Responsive FluidGrid */
+
+[class*="col-"] {
+padding: 15px;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 100%;}
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+/* End Responsive FluidGrid */
+
+/* BASIS CSS */
+html, body {background-color: #ffffff; max-width: 100%; text-align: center; font-family: verdana; font-size: 14px; overflow-x: hidden;}
+
+
+/* HEADER */
+header {
+height: 200px;
+width: 100%;
+margin: 0;
+background-color: #f57114;
+color: #ffffff;
+text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 40px;
+}
+h3 {font-weight: bold;}
+h4 {max-width: 95%; font-size: 12px;}
+@media only screen and (min-width: 768px) {
+  h4 {max-width: 100%; font-size: 12px;}
+}
+
+iframe {max-width: 95%;}
+@media only screen and (min-width: 768px) {
+  iframe {max-width: 100%;}
+}
+
+/* NAVIGATIE */
+.nav{
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background-color: #bd560d;
+  border-bottom: 5px solid #ffd700;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+}@media only screen and (min-width: 768px) {
+.nav {height: 30px; text-align: left;}
+}
+ul {list-style: none; display:block;}
+@media only screen and (min-width: 768px) {
+ul {display:block;}
+}
+li {display: block;}
+@media only screen and (min-width: 768px) {
+  li {display:inline-block;}
+}
+a {color: #ffffff; text-decoration: none; padding: 15px;}
+a:hover {color: #f57114;}
+
+
+/* CONTENT */
+.content {}
+@media only screen and (min-width: 768px) {
+    .content{ display: flex;}
+  }
+.links {
+  background-color: #ffb785;
+  color: #000000;
+  text-align: left;
+}
+.links h2 {color: #000000;}
+
+.rechts {
+  background-color: #ffffff;
+  text-align: left;
+}
+.rechts h2 {color: #bd560d;}
+.rechts img { max-width: 100px; height: auto; margin: 10px;}
+@media only screen and (min-width: 768px) {
+.rechts img {max-width: 290px; height: auto; margin: 10px;}
+}
+hr {width: 95%;}
+@media only screen and (min-width: 768px) {
+  hr { width: 100%;}
+}
+article {
+  width: 95%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  article {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+}
+  p {width: 95%; padding: 5px; margin-top: 10px; margin-bottom: 10px;}
+@media only screen and (min-width: 768px) {
+  p {width: 100%; padding: 5px; margin-top: 10px; margin-bottom: 10px;}
+}
+img {max-width: 290px; height: auto; margin: 10px;}
+.hannah {float: right;}
+.jesse {float: left;}
+
+
+/* FORMULIER */
+input, textarea {
+  height: 20px;
+  width: 95%;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 5px 0 5px 0;
+}
+::placeholder {padding-left: 10px;}
+select {
+  height: 30px;
+  width: 95%;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+@media only screen and (min-width: 768px) {
+input, textarea {
+  height: 20px;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 5px 0 5px 0;
+}
+::placeholder {padding-left: 10px;}
+select {
+  height: 30px;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+}
+textarea {height: 150px;}
+input:hover, textarea:hover, select:hover {border: 1px solid #d15f0f;}
+button {
+  height: 30px;
+  width: 80px;
+  background-color: #d15f0f;
+  border: 0px;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-top: 7px;
+}
+button:hover {
+  height: 30px;
+  width: 80px;
+  background-color: #f57114;
+  border: 1px solid #d15f0f;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #d15f0f;
+  height: 100px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  clear: right;
+}
+.foot {
+margin-top: 20px;
+height: 45px;
+width: 84%;
+line-height: 15px;
+font-size: 11px;
+font-weight: bold;
+color: #000000;
+}
+@media only screen and (min-width: 768px) {
+  .foot {
+  margin-top: 35px;
+  height: 30px;
+  width: 100%;
+  line-height: 15px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  }
+}
